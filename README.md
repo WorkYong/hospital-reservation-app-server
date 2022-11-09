@@ -13,8 +13,6 @@
 - 이전 예약에서 노쇼 한 환자에 대해 예약이 불가하도록 하는 기능을 추가하여 노쇼를 방지하는 어플리케이션을 구현.
 
 - 개발기간: 2022.10.14 - 2022.10.16
-- 개발인원: [김민지](https://github.com/enddl3224), [박정용](https://github.com/WorkYong), [육지(PM)](https://github.com/azure928), [조예슬](https://github.com/eungang3)
-
 <br>
 
 ## 🏥 프로젝트 실행 방법
@@ -64,7 +62,7 @@ $ node server.js
 
 ## 🏥 구현 기능에 대한 소개
 
-### 1. 병원 예약 가능 목록 (조예슬)
+### 1. 병원 예약 가능 목록 
 
 - 예약 가능한 모든 병원 목록을 확인할 수 있습니다. limit, offset을 쿼리 파라미터로 넣을 수 있습니다.(디폴트 limit 20, offset 0)
 
@@ -72,7 +70,7 @@ $ node server.js
 
 ---
 
-### 2. 예약 등록 (육지)
+### 2. 예약 등록
 
 **✅ 예약 등록**
 
@@ -97,7 +95,7 @@ $ node server.js
 
 ---
 
-### 3. 전체 예약목록 (박정용)
+### 3. 전체 예약목록 
 
 - 쿼리스트링으로 예약자 이름 또는 예약번호를 가져옵니다.
 - 입력받은 쿼리스트링 두가지를 DB에서 있는지 확인하고 없으면 에러를 반환합니다.
@@ -105,7 +103,7 @@ $ node server.js
 
 ---
 
-### 4. 예약내역 정보 수정 (김민지)
+### 4. 예약내역 정보 수정 
 
 - 신청한 예약 번호를 통해 예약을 변경할 수 있습니다. (환자 이름, 예약 시간, 예약 종류 변경 가능)
 
@@ -113,7 +111,7 @@ $ node server.js
 
 ## 🏥 API docs
 
-- 조예슬 : (병원 예약 가능 목록) 👉 [Postman API doc](https://documenter.getpostman.com/view/22215172/2s847BUbt7)
-- 육지 : (예약 등록) 👉 [Postman API doc](https://documenter.getpostman.com/view/21288917/2s847BUvgL)
-- 박정용 : (전체 예약조회) 👉 [Postman API doc](https://documenter.getpostman.com/view/22204904/2s847BUbRi)
-- 김민지 : (예약내역 정보 수정) 👉 [Postman API doc](https://documenter.getpostman.com/view/22580140/2s847CvEiW)
+-  (병원 예약 가능 목록) 👉 [Postman API doc](https://documenter.getpostman.com/view/22215172/2s847BUbt7)
+-  (예약 등록) 👉 [Postman API doc](https://documenter.getpostman.com/view/21288917/2s847BUvgL)
+-  (전체 예약조회) 👉 [Postman API doc](https://documenter.getpostman.com/view/22204904/2s847BUbRi)
+-  (예약내역 정보 수정) 👉 [Postman API doc](https://documenter.getpostman.com/view/22580140/2s847CvEiW)
